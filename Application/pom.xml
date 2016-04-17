@@ -4,6 +4,31 @@
 	<artifactId>Application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<jackson.version>2.7.3</jackson.version>
+	</properties>
+	
+	<dependencies>
+		<!-- jackson -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+	</dependencies>
+		
 	<build>
 		<plugins>
 			<plugin>
